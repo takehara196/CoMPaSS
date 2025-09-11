@@ -1,7 +1,8 @@
 # CoMPaSS: Enhancing Spatial Understanding in Text-to-Image Diffusion Models
 
 **\[[Project Page]\]
-\[[arXiv]\]**
+\[[arXiv]\]
+\[[ComfyUI node]\]**
 
 > [Gaoyang Zhang], Bingtao Fu, [Qingnan Fan], [Qi Zhang], Runxing Liu, Hong Gu, Huaqi Zhang, Xinguo Liu  
 > ICCV 2025
@@ -34,6 +35,11 @@ source .venv/bin/activate
 > [!NOTE]
 > For training, SCOP and TENOR are both required.  
 > For generating images from text, only TENOR and the reference weights are needed.
+
+### ComfyUI
+
+We recommend trying out the FLUX.1-dev LoRA trained via CoMPaSS. Please refer to [the
+custom node's repository][ComfyUI node] to get started.
 
 ### Reference Weights
 
@@ -81,6 +87,7 @@ supported.  Check out their respective instructions to get started:
 
 [Project Page]: <https://compass.blurgy.xyz>
 [arXiv]: <https://arxiv.org/abs/2412.13195>
+[ComfyUI node]: <https://github.com/blurgyy/CoMPaSS-FLUX.1-dev-ComfyUI>
 
 [uv]: <https://github.com/astral-sh/uv>
 
